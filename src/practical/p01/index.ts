@@ -6,7 +6,6 @@ export interface User {
     name: string;
     address: Address;
     phone: string;
-
 }
 
 export interface Address {
