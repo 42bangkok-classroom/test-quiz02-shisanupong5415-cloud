@@ -1,6 +1,4 @@
 import axios from 'axios';
-import { get } from 'node:http';
-
 export interface User {
     id: number;
     name: string;
