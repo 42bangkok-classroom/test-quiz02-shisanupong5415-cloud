@@ -51,7 +51,3 @@ export function getPostalAddress(): Promise<User[]> {
             throw error;
         });
 };
-
-getPostalAddress().then(addresses => {
-    console.log(addresses);
-});
